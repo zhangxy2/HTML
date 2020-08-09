@@ -15,89 +15,90 @@
 <form action="" method="get" name="abc" target="_blank">
     <fieldset>
         <legend>个人基本信息</legend>
-    <!--input控件-->
+        <!--input控件-->
 
-    <!--    双标签 默认值 在 标签中间-->
-    <!--    单标签 默认值 value -->
-    <!--    单标记标签 理解为通过value提交数据-->
+        <!--    双标签 默认值 在 标签中间-->
+        <!--    单标签 默认值 value -->
+        <!--    单标记标签 理解为通过value提交数据-->
 
-    <!--    input 控件 属性-->
-    <!--    maxlength 允许最大数字-->
-    <!--    disabled 禁用-->
-    <!--    readonly 只读-->
+        <!--    input 控件 属性-->
+        <!--    maxlength 允许最大数字-->
+        <!--    disabled 禁用-->
+        <!--    readonly 只读-->
 
-    单行文本框
-    <input type="text" name="" value="" placeholder="真正意义上的默认值" maxlength="6">
-    <br>
-    密码框
-    <input type="password">
-    <br>
-    文件域
-    <input type="file">
-    <br>
-    多行文本域
-    <!--    禁止缩放
-    水平 reset horizontal 竖直 vertical 不可以none 都可 both-->
-    <input type="textarea" cols="40" rows="30" reset="both">
-    <br>
+        单行文本框
+        <input type="text" name="" value="" placeholder="真正意义上的默认值" maxlength="6">
+        <br>
+        密码框
+        <input type="password">
+        <br>
+        文件域
+        <input type="file">
+        <br>
+        多行文本域
+        <!--    禁止缩放
+        水平 reset horizontal 竖直 vertical 不可以none 都可 both-->
+        <!--    resize：none｜both｜vertical｜horizontal  css属性-->
+        <textarea name="" id="" cols="30" rows="10" >多行文本域</textarea>
+        <br>
 
-<!--    按钮系列-->
-<!--    单选按钮-->
-<!--   label 理解为获取焦点-->
-    <label for="male">男</label>
-    <input type="radio" name="sex" value="1" id="male">
-    <label for="female">女</label>
-    <input type="radio" name="sex" value="0" id="female">
-    <br>
+        <!--    按钮系列-->
+        <!--    单选按钮-->
+        <!--   label 理解为获取焦点-->
+        <label for="male">男</label>
+        <input type="radio" name="sex" value="1" id="male">
+        <label for="female">女</label>
+        <input type="radio" name="sex" value="0" id="female">
+        <br>
 
-<!--    多选按钮-->
-<!--    checked 默认选中-->
-    跑<input type="checkbox" name="skill" value="0" checked>
-    走<input type="checkbox" name="skill" value="1">
-    爬<input type="checkbox" name="skill" value="2">
-    <br>
+        <!--    多选按钮-->
+        <!--    checked 默认选中-->
+        跑<input type="checkbox" name="skill" value="0" checked>
+        走<input type="checkbox" name="skill" value="1">
+        爬<input type="checkbox" name="skill" value="2">
+        <br>
 
-<!--    普通按钮-->
-    <input type="button" value="我是有个按钮">
+        <!--    普通按钮-->
+        <input type="button" value="我是有个按钮">
 
-<!--    button 和 input 按钮不同-->
-<!--    默认提交按钮-->
-    <button>button按钮 默认提交</button>
-<!--    重置-->
-    <button type="reset">重置</button>
-<!--    文本-->
-    <button type="text">普通</button>
-    <br>
+        <!--    button 和 input 按钮不同-->
+        <!--    默认提交按钮-->
+        <button>button按钮 默认提交</button>
+        <!--    重置-->
+        <button type="reset">重置</button>
+        <!--    文本-->
+        <button type="text">普通</button>
+        <br>
 
-<!--    提交按钮-->
-<!--    submit 和 image 区别 后者能够 获取数比爱点击位置信息  提交按钮不用写value-->
-    <input type="submit" name="">
-    <input type="image" name="" src="img/jennie3.jpg" width="80px" height="80px">
-    <br>
-    
-<!--    重置按钮-->
-    <input type="reset">
-    <br>
+        <!--    提交按钮-->
+        <!--    submit 和 image 区别 后者能够 获取数比爱点击位置信息  提交按钮不用写value-->
+        <input type="submit" name="">
+        <input type="image" name="" src="img/jennie3.jpg" width="80px" height="80px">
+        <br>
 
-    <!--下拉菜单-->
-<!--    multiple 默认展开-->
-<!--    selected 默认选择-->
-<!--    size 展开个数-->
-    <select name="" id="" size="2">
-        <option value="">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-    </select>
+        <!--    重置按钮-->
+        <input type="reset">
+        <br>
 
-<!--    三级联动-->
-    <select name="" id="">
-           <optgroup label="黑龙江">
-               <option value="">哈尔滨</option>
-               <option value="">佳木斯</option>
-               <option value="">牡丹江</option>
-               <option value="" selected>---请选择---</option>
-           </optgroup>
-    </select>
+        <!--下拉菜单-->
+        <!--    multiple 默认展开-->
+        <!--    selected 默认选择-->
+        <!--    size 展开个数-->
+        <select name="" id="" size="2">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+        </select>
+
+        <!--    三级联动-->
+        <select name="" id="">
+            <optgroup label="黑龙江">
+                <option value="">哈尔滨</option>
+                <option value="">佳木斯</option>
+                <option value="">牡丹江</option>
+                <option value="" selected>---请选择---</option>
+            </optgroup>
+        </select>
     </fieldset>
     <!--表单分组 fieldset-->
 </form>
